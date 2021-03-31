@@ -6,7 +6,7 @@ const Champion = ({ champion, handleChampionPopup }) => {
 		<div onClick={() => handleChampionPopup(champion.id)} className='champion'>
 			<p>{champion.id}</p>
 			<img src={`${skinUrl}${champion.id}_0.jpg`} alt='' />
-			{/* <img src={skinUrl + champion.id + '_0.jpg'} alt='' /> */}
+		
 		</div>
 	);
 };
